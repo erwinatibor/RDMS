@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="g1" cx="85%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#2A7A54" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="15%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#C9983A" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <style>
+      .title    { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 72px; fill: #DFB85A; }
+      .subtitle { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 28px; fill: rgba(255,255,255,0.75); }
+      .tagline  { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 22px; fill: rgba(255,255,255,0.5); letter-spacing: 0.1em; }
+    </style>
+  </defs>
+
+  <!-- Dark green background -->
+  <rect width="1200" height="630" fill="#0F1F17"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+
+  <!-- Logo symbol (large, top-left) -->
+  <circle cx="100" cy="100" r="60" fill="#C9983A"/>
+  <path d="M100 66C91 66 83 72 83 80.5c0 5.6 3.4 10.4 5.6 12.6V134a2.4 2.4 0 0 0 2.4 2.4h18a2.4 2.4 0 0 0 2.4-2.4V93.1c2.2-2.2 5.6-7 5.6-12.6C117 72 109 66 100 66z"
+        fill="none" stroke="#0F1F17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- RDMS wordmark -->
+  <text x="180" y="95" style="font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:48px;fill:white;letter-spacing:-0.02em;">RDMS</text>
+  <text x="182" y="122" style="font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:16px;fill:rgba(255,255,255,0.45);letter-spacing:0.05em;">Dento-Medical Society Rwanda</text>
+
+  <!-- Divider line -->
+  <rect x="100" y="190" width="80" height="2" fill="#C9983A"/>
+
+  <!-- Headline -->
+  <text x="100" y="310" class="title">Oral Health for All</text>
+  <text x="100" y="390" class="title">of Rwanda.</text>
+
+  <!-- Sub-line -->
+  <text x="100" y="460" class="subtitle">Free dental outreach · Education · Research · Advocacy</text>
+
+  <!-- Tagline / URL -->
+  <text x="100" y="560" class="tagline">RDMS.RW</text>
+
+  <!-- Decorative right-side tooth (large, low opacity) -->
+  <circle cx="1050" cy="315" r="200" fill="rgba(201,152,58,0.07)"/>
+  <path d="M1050 165C993 165 948 200 948 247c0 35 21 65 35 79V465a12 12 0 0 0 12 12h110a12 12 0 0 0 12-12V326c14-14 35-44 35-79C1152 200 1107 165 1050 165z"
+        fill="none" stroke="rgba(201,152,58,0.15)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <style>
+      .wordmark { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 22px; letter-spacing: -0.02em; fill: #FFFFFF; }
+      .subline   { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 8px; letter-spacing: 0.05em; fill: rgba(255,255,255,0.45); }
+    </style>
+  </defs>
+
+  <!-- Symbol: gold circle -->
+  <circle cx="30" cy="30" r="26" fill="#C9983A"/>
+
+  <!-- Tooth icon -->
+  <path d="M30 16C26.4 16 23 18.5 23 22.5c0 2.8 1.7 5.1 2.8 6.2V44a1.2 1.2 0 0 0 1.2 1.2h6a1.2 1.2 0 0 0 1.2-1.2V28.7c1.1-1.1 2.8-3.4 2.8-6.2C37 18.5 33.6 16 30 16z"
+        fill="none" stroke="#0F1F17" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Wordmark (white for dark bg) -->
+  <text x="66" y="36" class="wordmark">RDMS</text>
+
+  <!-- Sub-line -->
+  <text x="67" y="48" class="subline">Dento-Medical Society Rwanda</text>
+</svg>
